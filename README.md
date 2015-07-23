@@ -1,0 +1,2 @@
+# theme-hello
+Hello Theme
