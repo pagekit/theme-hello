@@ -1,17 +1,18 @@
 {
-  "name": "pagekit/hello-theme",
-  "type": "pagekit-theme",
-  "title": "Hello",
-  "description": "Pagekit Starter Theme",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Pagekit",
-      "email": "info@pagekit.com",
-      "homepage": "http://pagekit.com"
+    "name": "pagekit/hello-theme",
+    "type": "pagekit-theme",
+    "version": "0.8.0",
+    "title": "Hello",
+    "description": "Pagekit Starter Theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pagekit",
+            "email": "info@pagekit.com",
+            "homepage": "http://pagekit.com"
+        }
+    ],
+    "extra": {
+        "image": "theme.jpg"
     }
-  ],
-  "extra": {
-    "image": "theme.jpg"
-  }
 }
