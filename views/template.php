@@ -10,8 +10,12 @@
     </head>
     <body>
 
-        <!-- Get site URL -->
-        <a href="<?= $view->url()->get() ?>">Logo</a>
+        <!-- Render logo with site URL -->
+        <?php if($app['module']['system/site']->config('logo')): ?>
+        <a href="<?= $view->url()->get() ?>">
+            <img src="<?= $app['module']['system/site']->config('logo') ?>" alt="">
+        </a>
+        <?php endif ?>
 
         <!-- Render menu position -->
         <?php if ($view->menu()->exists('primary')) : ?>
@@ -22,7 +26,7 @@
         <?php if ($view->position()->exists('sidebar')) : ?>
             <?= $view->position('sidebar') ?>
         <?php endif; ?>
-        
+
         <!-- Render system messages -->
         <?= $view->render('messages') ?>
 
