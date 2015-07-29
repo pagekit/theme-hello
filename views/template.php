@@ -6,20 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?= $view->render('head') ?>
         <?php $view->style('theme', 'theme:css/theme.css') ?>
-        <?php $view->script('jquery') ?>
+        <?php $view->script('theme:js/theme.js', 'jquery') ?>
     </head>
     <body>
 
         <!-- Render logo with site URL -->
-        <?php if($app['module']['system/site']->config('logo')): ?>
+        <?php if ($logo = $site->config('logo')) : ?>
         <a href="<?= $view->url()->get() ?>">
-            <img src="<?= $app['module']['system/site']->config('logo') ?>" alt="">
+            <img src="<?= $this->escape($logo) ?>" alt="">
         </a>
         <?php endif ?>
 
         <!-- Render menu position -->
-        <?php if ($view->menu()->exists('primary')) : ?>
-            <?= $view->menu('primary') ?>
+        <?php if ($view->menu()->exists('main')) : ?>
+            <?= $view->menu('main') ?>
         <?php endif ?>
 
         <!-- Render widget position -->
