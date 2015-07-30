@@ -1,7 +1,6 @@
 {
     "name": "pagekit/hello-theme",
     "type": "pagekit-theme",
-    "version": "0.8.0",
     "title": "Hello",
     "description": "Pagekit Starter Theme",
     "license": "MIT",
