@@ -1,8 +1,9 @@
 {
     "name": "pagekit/hello-theme",
     "type": "pagekit-theme",
+    "version": "0.9.0",
     "title": "Hello",
-    "description": "Pagekit Starter Theme",
+    "description": "A blueprint to develop your own themes.",
     "license": "MIT",
     "authors": [
         {
@@ -12,6 +13,6 @@
         }
     ],
     "extra": {
-        "image": "theme.jpg"
+        "image": "image.jpg"
     }
 }

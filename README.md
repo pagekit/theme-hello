@@ -1,2 +1,3 @@
-# theme-hello
-Hello Theme
+# Hello Theme
+
+A blueprint to develop your own themes.
