@@ -11,7 +11,7 @@
     <body>
 
         <!-- Render logo with site URL -->
-        <?php if ($logo = $site->config('logo')) : ?>
+        <?php if ($logo = $params['logo']) : ?>
         <a href="<?= $view->url()->get() ?>">
             <img src="<?= $this->escape($logo) ?>" alt="">
         </a>
