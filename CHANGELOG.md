@@ -1,5 +1,9 @@
 # Changelog
 
+## WIP
+### Changed
+- renamed package to "pagekit/theme-hello"
+
 ## 0.9.1 (September 24, 2015)
 
 ### Fixed

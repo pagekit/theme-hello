@@ -1,5 +1,5 @@
 {
-    "name": "pagekit/hello-theme",
+    "name": "pagekit/theme-hello",
     "type": "pagekit-theme",
     "version": "0.9.1",
     "title": "Hello",
