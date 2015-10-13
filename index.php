@@ -11,23 +11,6 @@ return [
     'name' => 'hello-theme',
 
     /**
-     * Define the type of this module definition.
-     * Makes sure Pagekit loads and recognizes this package as a theme.
-     */
-    'type' => 'theme',
-
-    /**
-     * Register shorthands. Used when referencing resources.
-     * Example: theme:image.jpg -> packages/pagekit/theme-hello/image.jpg
-     */
-    'resources' => [
-
-        'theme:' => '',
-        'views:' => 'views'
-
-    ],
-
-    /**
      * Define menu positions.
      * Will be listed in the backend so that users
      * can assign menus to these positions.
