@@ -1,6 +1,6 @@
 # Changelog
 
-## WIP
+## 0.9.3 (October 30, 2015)
 
 ### Added
 - More detailed README to get people started
