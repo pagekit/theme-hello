@@ -8,7 +8,7 @@ return [
     /**
      * Unique name that identifies your theme.
      */
-    'name' => 'hello-theme',
+    'name' => 'theme-hello',
 
     /**
      * Define menu positions.

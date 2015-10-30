@@ -1,5 +1,11 @@
 # Changelog
 
+## WIP
+
+### Fixed
+
+- Renamed module to "theme-hello", enabling in backend doesn't fail anymore
+
 ## 0.9.2 (October 14, 2015)
 
 ### Changed
