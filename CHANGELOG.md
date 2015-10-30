@@ -2,6 +2,9 @@
 
 ## WIP
 
+### Added
+- More detailed README to get people started
+
 ### Fixed
 - Renamed module to "theme-hello", enabling in backend doesn't fail anymore
 
