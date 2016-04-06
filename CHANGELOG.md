@@ -1,5 +1,10 @@
 # Changelog
 
+## WIP
+
+### Added
+- Added page title fallback if no logo is picked
+
 ## 0.9.3 (October 30, 2015)
 
 ### Added

@@ -10,12 +10,14 @@
     </head>
     <body>
 
-        <!-- Render logo with site URL -->
-        <?php if ($logo = $params['logo']) : ?>
+        <!-- Render logo or title with site URL -->
         <a href="<?= $view->url()->get() ?>">
-            <img src="<?= $this->escape($logo) ?>" alt="">
+            <?php if ($logo = $params['logo']) : ?>
+                <img src="<?= $this->escape($logo) ?>" alt="">
+            <?php else : ?>
+                <?= $app->config('system/site')->get('title') ?>
+            <?php endif ?>
         </a>
-        <?php endif ?>
 
         <!-- Render menu position -->
         <?php if ($view->menu()->exists('main')) : ?>
