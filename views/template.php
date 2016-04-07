@@ -15,7 +15,7 @@
             <?php if ($logo = $params['logo']) : ?>
                 <img src="<?= $this->escape($logo) ?>" alt="">
             <?php else : ?>
-                <?= $app->config('system/site')->get('title') ?>
+                <?= $params['title'] ?>
             <?php endif ?>
         </a>
 
