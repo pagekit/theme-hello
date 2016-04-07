@@ -1,7 +1,7 @@
 {
     "name": "pagekit/theme-hello",
     "type": "pagekit-theme",
-    "version": "0.9.3",
+    "version": "1.0.0",
     "title": "Hello",
     "description": "A blueprint to develop your own themes.",
     "license": "MIT",
