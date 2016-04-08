@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 (April 8, 2016)
+
+### Fixed
+- Menu params bug
+
 ## 1.0.0 (April 7, 2016)
 
 ### Added

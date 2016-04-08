@@ -21,7 +21,7 @@
 
         <!-- Render menu position -->
         <?php if ($view->menu()->exists('main')) : ?>
-            <?= $view->menu('main') ?>
+            <?= $view->menu('main', ['class' => '']) ?>
         <?php endif ?>
 
         <!-- Render widget position -->
