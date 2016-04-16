@@ -16,7 +16,7 @@ Just code away in the provided files. However, you may also want to read the [Th
 
 For further inspiration, have a look at the default [One theme](https://github.com/pagekit/theme-one) which makes use of many more Pagekit features.
 
-## No styes included
+## No styles included
 
 The included `css/theme.css` lists all CSS classes that are rendered by the Pagekit core extensions (such as menus or the blog). These classes come without any styling. Add your own styling in order for your theme to make the default Pagekit views look pretty.
 
