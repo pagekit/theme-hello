@@ -29,9 +29,6 @@
             <?= $view->position('sidebar') ?>
         <?php endif; ?>
 
-        <!-- Render system messages -->
-        <?= $view->render('messages') ?>
-
         <!-- Render content -->
         <?= $view->render('content') ?>
 
