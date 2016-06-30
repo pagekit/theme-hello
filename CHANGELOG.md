@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.3 (June 30, 2016)
+
+### Removed
+- Removed system messages
+
 ## 1.0.1 (April 8, 2016)
 
 ### Fixed
